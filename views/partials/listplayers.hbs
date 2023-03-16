@@ -1,0 +1,56 @@
+<table class="ui striped table">
+  <thead>
+    <tr>
+      <th class="four wide">Name</th>
+      <th class="four wide">Nationality</th>
+      <th class="three wide">Date of Birth</th>
+      <th class="three wide">Kit Number</th>
+      <th class="one wide"> </th>
+      <th class="one wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each team.players}}
+    <form class = "ui stacked segment form" action="/team/{{../team.id}}/updateplayer/{{id}}" method="POST">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
+         <input type="text" name="name" autofocus required title = "Please include a for the player" placeholder="Name" value = "{{name}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="nationality" required title = "Please include a valid Nationality for the player" placeholder="Nationality" value = "{{nationality}}">
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="dob" autofocus required title = "Please include a date of birth for the player" placeholder="Date of birth" value = "{{dob}}">         
+        </span>
+      </td>
+      <td class="field">
+        <span class="ui input">
+          <input type="text" name="kitnumber" required title = "Please enter a kit number" placeholder="Kit number" value = "{{kitnumber}}">
+        </span>
+      </td>
+      <td class="center aligned">
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      </td>
+      <td class="center aligned">
+        <a href="/team/{{../team.id}}/deleteplayer/{{id}}" class="ui icon button delplayer">
+          <i class="icon trash"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>
+
+<p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui blue button" id="rateit">
+  Rate it! <i class="star icon"></i>
+</button>

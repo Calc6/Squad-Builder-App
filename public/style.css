@@ -1,0 +1,44 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  color:black;
+  background-color: #0B032D;
+  background-image:url("https://cdn.glitch.global/bbfc0388-f2b3-4617-9899-e013d981d1df/stadium.png?v=1678982157075");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+h1 {
+  font-style: italic;
+  color:black;
+}
+
+#readmore {
+  display: none;
+  color:black;
+  
+}
+
+#welcomeuser {
+  display: none;
+}
+
+section.ui.two.column.grid.segment {
+  border-style: solid;
+  border-color: #1B3B6F;
+}
+
+nav.ui.menu{
+  border-style: solid;
+  border-color: #1B3B6F;
+}
+
+section.ui.segment{
+  border-style: solid;
+  border-color: #1B3B6F;
+}
+
+

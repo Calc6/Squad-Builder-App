@@ -1,0 +1,21 @@
+<form class="ui stacked segment form" action="/team/{{team.id}}/addplayer" method="POST">
+  <div class="four fields">
+    <div class="field">
+      <label for="name">Name</label>
+      <input placeholder="Name" type="text" name="name" autofocus required>
+    </div>
+    <div class="field">
+      <label for="nationality">Nationality</label>
+      <input placeholder="Nationality" type="text" name="nationality" required>
+    </div>
+    <div class="field">
+      <label for="dob">Date of Birth</label>
+      <input placeholder="Dob" type="text" name="dob" required>
+    </div>
+    <div class="field">
+      <label for="kitnumber">Kit Number</label>
+      <input placeholder="Kitnumber" type="text" name="kitnumber" required>
+    </div>
+  </div>
+  <button class="ui blue submit button">Add Player</button>
+</form>

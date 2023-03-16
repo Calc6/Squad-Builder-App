@@ -1,0 +1,31 @@
+{"developers":
+  [
+    {
+      "name":"Tom",
+      "fullname":"Tommy Wommy",
+      "image":"https://cdn.discordapp.com/attachments/798532033306427393/1085896514020319282/image.png",
+      "joined":1969,
+      "job":"a Professional Ball Chaser",
+      "city":"Carrick",
+      "mates":0
+    },
+    {
+      "name":"Jack",
+      "fullname":"Jack Dixey Pixie",
+      "image":"https://cdn.glitch.global/bbfc0388-f2b3-4617-9899-e013d981d1df/Oliver_Tree_(50118164757)_(cropped).png?v=1678967501628",
+      "joined":2003,
+      "job":"Senior Melter",
+      "city":"The Slums of Dublin City",
+      "mates":-1
+    },
+    {
+      "name":"Liam",
+      "fullname":"Liam dookie",
+      "image":"https://cdn.discordapp.com/attachments/868269640529379358/1085307071056056320/d..png",
+      "joined":2005,
+      "job":"Retired Junkey/broke college student",
+      "city":"his girlfriends back pocket",
+      "mates":1
+    }
+  ]
+}
