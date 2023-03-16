@@ -1,0 +1,32 @@
+{
+  "teamCollection": [
+    {
+      "id": "ffa45b71-aead-4b3e-8d88-d06665a048ae",
+      "title": "rdfg",
+      "stadium": "gfg",
+      "players": [
+        {
+          "id": "5df5f0f7-818a-43fa-92df-85b648b56718",
+          "name": "fdg",
+          "nationality": "fdg",
+          "dob": "dfg",
+          "kitnumber": "dfg"
+        }
+      ]
+    },
+    {
+      "id": "e6af07af-1c16-4c47-a2c3-06c6fa429a3c",
+      "title": "united",
+      "stadium": "old trafford",
+      "players": [
+        {
+          "id": "7dd5e569-8fef-4761-aea5-6aa1f3a8f5a8",
+          "name": "aimee ",
+          "nationality": "irish",
+          "dob": "7/10/1999",
+          "kitnumber": "6"
+        }
+      ]
+    }
+  ]
+}

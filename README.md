@@ -1,2 +1,5 @@
-# Squad-Builder-App
-Allows you to add, delete, update teams/players so u can make your own football team 
+Lab 7
+=================
+
+- Added update song features
+- Added playlist app statistics
