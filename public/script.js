@@ -7,14 +7,14 @@ console.log("Hello from the Web App Dev 1 lab!");
 const greenbtn = document.querySelector(".green");
 
 greenbtn &&
-  greenbtn.addEventListener("click", () => alert("Thanks! You're okay too"));
+  greenbtn.addEventListener("click", () => alert("Thanks! All support is appreciated"));
 
-const bluebtn = document.querySelector(".blue");
+const orangebtn = document.querySelector(".orange");
 
-bluebtn &&
-  bluebtn.addEventListener("click", () => {
+orangebtn &&
+  orangebtn.addEventListener("click", () => {
     let readMoreDiv = document.querySelector("#readmore");
-    readMoreDiv.style.color = "green";
+    readMoreDiv.style.color = "black";
     if (readMoreDiv.style.display === "block") {
       readMoreDiv.style.display = "none";
     } else {
@@ -31,7 +31,7 @@ redbtn &&
     let username = prompt("What's your name?");
     welcomeUserDiv.style.display = "block";
     document.querySelector("#welcomeuser").innerHTML = `<p> Hello, ${username}, 
-    looking forward to hearing your teams! Click this message to close it.</p>`;
+    looking forward to seeing the teams you create! Click this message to close it.</p>`;
     welcomeUserDiv.style.cursor = "pointer";
   });
 
